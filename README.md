@@ -214,17 +214,6 @@ String gun = gun_;  // "02"
 
 ---
 
-### `haftaGun_`
-
-Hafta günü bilgisini `String` formatında döndürür.
-
-#### Örnek:
-```cpp
-String haftaGun = haftaGun_;  // "Pazartesi"
-```
-
----
-
 ### `yil_`
 
 Yıl bilgisini `String` formatında döndürür.
