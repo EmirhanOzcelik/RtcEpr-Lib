@@ -1,0 +1,23 @@
+__zaman           KEYWORD1
+zaman             KEYWORD1
+
+setup             KEYWORD2
+millis_saat       KEYWORD2
+eprden_oku        KEYWORD2
+eprye_kaydet      KEYWORD2
+
+WTQ               KEYWORD3
+__EPR_IMZA        KEYWORD3
+g_ms5             KEYWORD3
+g_ms10            KEYWORD3
+g_ms25            KEYWORD3
+g_ms              KEYWORD3
+g_ms100           KEYWORD3
+
+sn                KEYWORD3
+dk                KEYWORD3
+saat              KEYWORD3
+ay                KEYWORD3
+gun               KEYWORD3
+hafta_gun         KEYWORD3
+yil               KEYWORD3
