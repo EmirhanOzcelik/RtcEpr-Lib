@@ -64,11 +64,39 @@ uint16_t oku16(int adres)
 
 ## MACROS
 -------
-format2hane(val) → Converts single-digit numbers to two-digit strings. (e.g., 5 → "05")
 
-saniye_ → Returns seconds as a 2-digit string.  
-dakika_ → Returns minutes as a 2-digit string.  
-saat_   → Returns hours as a 2-digit string.  
-gun_    → Returns day of the month as a 2-digit string.  
-ay_     → Returns month as a 2-digit string.  
-yil_    → Returns year as a string. (e.g., "2025")
+format2hane(val)
+→ Converts single-digit numbers to two-digit strings.
+→ Example: format2hane(5) → "05"
+
+saniye_
+→ Returns the second value as a 2-digit string.  
+→ Example: "08"
+
+dakika_
+→ Returns the minute value as a 2-digit string.  
+→ Example: "45"
+
+saat_
+→ Returns the hour value as a 2-digit string.  
+→ Example: "07"
+
+gun_
+→ Returns the day of the month as a 2-digit string.  
+→ Example: "02"
+
+ay_
+→ Returns the month as a 2-digit string.  
+→ Example: "11"
+
+yil_
+→ Returns the full year as a string.  
+→ Example: "2025"
+
+saat_format
+→ Returns the full time as a formatted string: "hh:mm:ss"  
+→ Example: "14:07:30"
+
+tarih_format
+→ Returns the full date as a formatted string: "YYYY-MM-DD"  
+→ Example: "2025-05-10"
