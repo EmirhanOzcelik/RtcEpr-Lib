@@ -34,6 +34,7 @@ void eprden_oku(uint16_t basla = WTQ)
 
 void eprye_kaydet(uint16_t basla = WTQ)
 → Writes current time values to EEPROM for persistence after reset.
+---
 
 ## TIME VARIABLES
 ---------------
@@ -45,6 +46,7 @@ ay         → Month (1–12)
 hafta_gun  → Day of the week (0 = Sunday, 6 = Saturday)  
 yil        → Year (e.g., 2025)
 
+---
 
 ## epr CLASS FUNCTIONS
 ----------------------
@@ -61,6 +63,7 @@ void yaz16(int adres, uint16_t veri)
 uint16_t oku16(int adres)
 → Reads a 16-bit value from EEPROM by combining two 8-bit reads.
 
+---
 
 ## MACROS
 -------
