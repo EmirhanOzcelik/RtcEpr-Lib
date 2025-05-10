@@ -34,8 +34,8 @@ void eprden_oku(uint16_t basla = WTQ)
 
 void eprye_kaydet(uint16_t basla = WTQ)
 → Writes current time values to EEPROM for persistence after reset.
----
 
+---
 ## TIME VARIABLES
 ---------------
 sn         → Seconds (0–59)  
