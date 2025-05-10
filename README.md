@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # 🕒 Time and EEPROM Management Library
 
 This library provides easy-to-use time management features and persistent storage using EEPROM. It contains two main classes:
