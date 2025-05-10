@@ -18,7 +18,7 @@ Includes convenient macros for consistent and formatted time string output.
 
 ---
 
-## __zaman CLASS FUNCTIONS
+## zaman CLASS FUNCTIONS
 ------------------------
 
 void setup(uint16_t bellek_baslangic = WTQ)
@@ -46,7 +46,7 @@ hafta_gun  → Day of the week (0 = Sunday, 6 = Saturday)
 yil        → Year (e.g., 2025)
 
 
-## __epr CLASS FUNCTIONS
+## epr CLASS FUNCTIONS
 ----------------------
 
 void yaz8(int adres, uint8_t veri)
@@ -98,5 +98,5 @@ saat_format
 → Example: "14:07:30"
 
 tarih_format
-→ Returns the full date as a formatted string: "YYYY-MM-DD"  
-→ Example: "2025-05-10"
+→ Returns the full date as a formatted string: "YYYY/MM/DD"  
+→ Example: "2025/05/10"
