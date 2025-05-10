@@ -11,6 +11,8 @@ Includes convenient macros for consistent and formatted time string output.
 
 ## 📌 Features
 
+---
+
 - Time tracking and calendar synchronization using EEPROM  
 - 8-bit and 16-bit EEPROM read/write functions  
 - Formatted time string generation  
@@ -19,6 +21,7 @@ Includes convenient macros for consistent and formatted time string output.
 ---
 
 ## zaman CLASS FUNCTIONS
+
 ------------------------
 
 void setup(uint16_t bellek_baslangic = WTQ)
@@ -36,7 +39,9 @@ void eprye_kaydet(uint16_t basla = WTQ)
 → Writes current time values to EEPROM for persistence after reset.
 
 ---
+
 ## TIME VARIABLES
+
 ---------------
 sn         → Seconds (0–59)  
 dk         → Minutes (0–59)  
